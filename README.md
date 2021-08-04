@@ -4,6 +4,12 @@ A simple Java application that replays Json events that are stored in objects in
 
 By default, the application will replay a historic data set of taxi trips that made in New York City that is derived from the public dataset [available from the Registry of Open Data on AWS](https://registry.opendata.aws/nyc-tlc-trip-records-pds/).
 
+The workshop steps:
+https://streaming-analytics.workshop.aws/flink-on-kda/
+
+The stack:
+https://dashboard.eventengine.run/login (AWS hash: 78d4-1df9becff4-b7)
+
 ```
 $ java -jar amazon-kinesis-replay-1.0.jar -streamName «Kinesis stream name» -streamRegion «AWS region»
 ```
