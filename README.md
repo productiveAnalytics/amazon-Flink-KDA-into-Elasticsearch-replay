@@ -1,4 +1,4 @@
-## Amazon Kinesis Replay
+## Amazon Kinesis Replay From Flink-KDA into ElasticSearch
 
 A simple Java application that replays Json events that are stored in objects in Amazon S3 into a Amazon Kinesis stream. The application reads the timestamp attribute of the stored events and replays them as if they occurred in real time.
 
